@@ -1,0 +1,139 @@
+<!doctype html>
+<!--Megan Ealem 12-14-23 Portfolio Page for Final-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Page</title>
+<link href="Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<nav>
+	<ul>
+		<li><a href="Index.html">Home</a></li>
+		<li><a href="Portfolio.html">Portfolio</a></li>
+		<li><a href="Experience.html">Experience</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+	</nav>
+	<br />
+	<br />
+	
+	<header class="secondary-pages"><a href="Index.html"><img src="Images/Logo.png"  alt="Megan Ealem Logo"/></a></header>
+	<br />
+	<article class="all-browsers">
+		<h3>Megan Ealem's Work</h3>
+		<article class="browser">
+			<br />
+			<div class="container">
+				<img src="Images/CLUMPYTITLE.png" alt="Title picture from group game Clumpy." class="image">
+				<div class="overlay">
+					<div class="text">
+						This is the title screen to the game I worked on in a group in 2023.
+						You can download and play it here: <a href="https://mini-machines.itch.io/clumpy-stay-cool"
+						target="_blank">https://mini-machines.itch.io/clumpy-stay-cool</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<img src="Images/Front2.png" alt="Picture of hallway that Megan Ealem textured" class="image">
+				<div class="overlay">
+					<div class="text">
+						A picture of a hallway I textured in 2023.
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<img src="Images/Inside.png" alt="Picture of inside hallway that Megan Ealem textured" class="image">
+				<div class="overlay">
+					<div class="text">
+						Another picture of the hallway I textured in 2023 but inside this time.
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<img src="Images/Inside3.png" alt="Picture of closer look of inside the hallway that Megan Ealem textured" 
+				class="image">
+				<div class="overlay">
+					<div class="text">
+						Last picture of the hallway I textured in 2023 with a closer look inside hallway.
+					</div>
+			</div>
+		</article>
+		<h3>This is a short animation I made around 2022:</h3>
+		<article class="browser">
+			<div class="container">
+				<button onclick="playPauseOne()">Play/Pause</button>
+				<video id="video1" width="600" height="450">
+					<source src="Images/video4.mp4" type="video/mp4" 
+					alt="Video of short animation of two rats done by Megan Ealem" class="image">
+				</video>
+				
+				<script> 
+					var myVideoOne = document.getElementById("video1"); 
+					
+					function playPauseOne() { 
+						if (myVideoOne.paused) 
+							myVideoOne.play(); 
+						else 
+							myVideoOne.pause(); 
+						} 
+				</script>
+			</div>
+		</article>
+		<h3>This is another short animation I made around 2022:</h3>
+		<article class="browser">
+			<div class="container">
+				<button onclick="playPauseTwo()">Play/Pause</button>
+				<video id="video2" width="600" height="450">
+					<source src="Images/Creative Project.mp4" type="video/mp4" 
+					alt="Video of short animation done by Megan Ealem" class="image">
+				</video>
+				
+				<script> 
+					var myVideoTwo = document.getElementById("video2"); 
+					
+					function playPauseTwo() { 
+						if (myVideoTwo.paused) 
+							myVideoTwo.play(); 
+						else 
+							myVideoTwo.pause(); 
+						} 
+				</script>
+			</div>
+		</article>
+		<h3>This is a short collection of projects I made in 2022/2023 for another class:</h3>
+		<article class="browser">
+			<div class="container">
+				<button onclick="playPauseThree()">Play/Pause</button>
+				<video id="video3" width="600" height="450">
+					<source src="Images/EalemMegan_SAGA295_portfolio.mp4" type="video/mp4" 
+					alt="Video collection of projects made by Megan Ealem" class="image">
+				</video>
+				
+				<script> 
+					var myVideoThree = document.getElementById("video3"); 
+					
+					function playPauseThree() { 
+						if (myVideoThree.paused) 
+							myVideoThree.play(); 
+						else 
+							myVideoThree.pause(); 
+						} 
+				</script>
+			</div>
+		</article>
+	</article>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<footer>
+		<p style="font-size: 15px">Author: Megan Ealem<br />
+		<a href="mailto:mealem@emich.edu">mealem@emich.edu</a></p>
+		<a href="Index.html" class="previous round">&#8249;</a>
+		<a href="Experience.html" class="next round">&#8250;</a>
+</footer>
+</body>
+</html>
